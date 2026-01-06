@@ -10,7 +10,7 @@ while attempts>0:
 
     else:
             attempts-=1
-            print("invalid")
+            print("invalid\nAttempts left=",attempts)
              
 if attempts==0:
     print("No attempts left")
