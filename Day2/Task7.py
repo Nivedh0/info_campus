@@ -1,8 +1,8 @@
 pswd=input("Enter Password:")
 leng=len(pswd)
 if leng >= 8:
-    print("Strong")
+    print("Strong Password")
 elif leng >=5 and leng <=7:
-    print("medium")
+    print("Medium Password")
 else:
-    print("weak")
+    print("Weak Password")
