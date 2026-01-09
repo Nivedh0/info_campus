@@ -51,9 +51,12 @@ while True:
     elif ch == 4:
         key = input("Enter Customer ID or Email: ")
 
-        for cid in customers:
+        for cid,cust in customers.items():
             if str(cid) == key or customers[cid]["email"] == key:
-                print(customers[cid])
+                print("ID:", cid)
+                print("NAME:", cust["name"])
+                print("EMAIL:", cust["email"])
+                print("STATUS:", cust["status"])
                 break
         else:
             print("Customer not found!")
