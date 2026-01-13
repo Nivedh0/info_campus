@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class CRMsystem:
     def __init__(self):
         self.customers=[]
@@ -100,7 +99,7 @@ while True:
     else:
         print("invalid choice")
         break
-=======
+
 class CRMsystem:
     def __init__(self):
         self.customers=[]
@@ -203,10 +202,3 @@ while True:
         print("invalid choice")
         break
 
-
-
-
-
-        
-
->>>>>>> a40b258a31065e8dedde132928672de512e98615
