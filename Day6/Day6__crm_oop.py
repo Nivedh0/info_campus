@@ -56,6 +56,7 @@ class CRMsystem:
                     print(c['name'],"Removed")
                 else:
                     print("Cannot remove active customer")
+                break
             else:
                 print("No such customer")
 
@@ -104,3 +105,4 @@ while True:
 
 
         
+
