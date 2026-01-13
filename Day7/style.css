@@ -1,0 +1,36 @@
+body {
+    background: #b2af96;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    padding: 40px;
+    background: rgb(252, 252, 252);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+input[type="button"] {
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background: darkgreen;
+}
