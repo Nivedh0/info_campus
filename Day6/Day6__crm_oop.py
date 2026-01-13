@@ -56,6 +56,7 @@ class CRMsystem:
                     print(c['name'],"Removed")
                 else:
                     print("Cannot remove active customer")
+                break
             else:
                 print("No such customer")
 
@@ -64,11 +65,11 @@ class CRMsystem:
         cust=0
         cl=0
         for c in self.customers:
-            if c['status'] == 'lead':
+            if c['status'].lower() == 'lead':
                 lead+=1
-            elif c['status'] == 'customer':
+            elif c['status'].lower() == 'customer':
                 cust+=1
-            elif c['status'] == 'client':
+            elif c['status'].lower() == 'client':
                 cl+=1
 
         print("Lead:",lead,
@@ -98,9 +99,3 @@ while True:
     else:
         print("invalid choice")
         break
-
-
-
-
-
-        
