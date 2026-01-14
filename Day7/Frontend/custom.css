@@ -1,0 +1,20 @@
+/* Page heading style */
+h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Card customization */
+.card {
+    border-radius: 10px;
+}
+
+/* Table customization */
+table {
+    background-color: white;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
