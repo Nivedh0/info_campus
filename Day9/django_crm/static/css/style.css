@@ -1,0 +1,13 @@
+
+body {
+    background-color: rgb(148, 57, 57) !important;
+}
+
+.card {
+    box-shadow: 0px 4px 10px rgba(222, 53, 53, 0.5);
+}
+
+.btn-primary {
+    background-color: rgb(12, 170, 15) ;
+    border-color: black ;
+}

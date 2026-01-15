@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="text-center">Welcome to CRM System</h2>
+
+<div class="card mt-4">
+    <div class="card-body">
+        <h5 class="card-title">Customer Management</h5>
+        <p class="card-text">
+            Manage customers easily.
+        </p>
+
+        <div class="text-center">
+    <a href="{% url 'customers' %}" class="btn btn-primary">
+        View Customers
+    </a>
+</div>
+     <div class="text-center">
+    <a href="{% url 'form' %}" class="btn btn-primary">
+        Add Customers
+    </a>
+
+    </div>
+</div>
+{% endblock %}
